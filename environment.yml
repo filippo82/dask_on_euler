@@ -1,0 +1,17 @@
+name: dask_on_euler
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - pip
+  - jupyterlab
+  - dask
+  - dask-jobqueue
+  - bokeh
+  - nb_conda_kernels
+  - ipykernel
+  - ipywidgets
+  - jupyter-server-proxy
+  - nodejs
+  - pip:
+    - dask_labextension
